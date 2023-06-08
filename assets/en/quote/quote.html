@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secondsourcemed</title>
+<link rel="stylesheet" href="../../css/all.css" />
+<script>
+  window.MasterCSSManual = true;
+</script>
+<script src="../../js/master.css.js"></script>
+<script>
+  const Style = window.MasterStyle;
+  Style.extend("colors", {
+    primary: "57bc00",
+    secondary: "6cc8ea",
+    gray: {
+      100: "f9f9f9",
+      200: "f0f0f0",
+      300: "e8e8e8",
+      400: "e0e0e0",
+      500: "cccccc",
+      600: "999999",
+      700: "666666",
+      800: "333333",
+      900: "222222",
+    },
+  });
+  window.initMasterCSS();
+</script>
+
+  </head>
+  <body>
+<header
+  id="siteHeader"
+  class="fixed top:0 left:0 z:999 w:full h:60 flex jc:space-between ai:center pl:5vw bg:white {h:90;pr:5vw}@lg"
+>
+  <a href="../home/index.html">
+    <img
+      src="../../img/logo/secondsource-medical-logo.svg"
+      class="w:160 w:auto@lg"
+      alt="Secondsourcemed"
+      width="215"
+      height="53"
+    />
+  </a>
+  <nav class="mr:-20 hidden@<lg">
+    <ul class="flex">
+      <li class="group rel">
+        <div
+          class="abs top:0 left:0 full bg:linear-gradient(to|top,gray-100,white) bx:1|solid|gray-400 opacity:0 ~opacity|.3s .group:hover_{opacity:1}"
+        ></div>
+        <span
+          class="abs bottom:0 left:0 transform:right scaleX(0) w:full h:3 bg:primary ~transform|.3s .group:hover_{transform:left;scaleX(1)}"
+        ></span>
+        <a href="../about/about.html" class="rel flex ai:center h:90 px:20">
+          About Us
+        </a>
+      </li>
+      <li class="group rel">
+        <div
+          class="abs top:0 left:0 full bg:linear-gradient(to|top,gray-100,white) bx:1|solid|gray-400 opacity:0 ~opacity|.3s .group:hover_{opacity:1}"
+        ></div>
+        <span
+          class="abs bottom:0 left:0 transform:right scaleX(0) w:full h:3 bg:primary ~transform|.3s .group:hover_{transform:left;scaleX(1)}"
+        ></span>
+        <a
+          href="../capability/capability.html"
+          class="rel flex ai:center h:90 px:20"
+        >
+          Capability
+        </a>
+      </li>
+      <li class="group rel">
+        <div
+          class="abs top:0 left:0 full bg:linear-gradient(to|top,gray-100,white) bx:1|solid|gray-400 opacity:0 ~opacity|.3s .group:hover_{opacity:1}"
+        ></div>
+        <span
+          class="abs bottom:0 left:0 transform:right scaleX(0) w:full h:3 bg:primary ~transform|.3s .group:hover_{transform:left;scaleX(1)}"
+        ></span>
+        <a
+          href="../portfolio/portfolio.html"
+          class="rel flex ai:center h:90 px:20"
+        >
+          Portfolio
+        </a>
+      </li>
+      <li class="group rel">
+        <div
+          class="abs top:0 left:0 full bg:linear-gradient(to|top,gray-100,white) bx:1|solid|gray-400 opacity:0 ~opacity|.3s .group:hover_{opacity:1}"
+        ></div>
+        <span
+          class="abs bottom:0 left:0 transform:right scaleX(0) w:full h:3 bg:primary ~transform|.3s .group:hover_{transform:left;scaleX(1)}"
+        ></span>
+        <a href="../news/news-list.html" class="rel flex ai:center h:90 px:20">
+          News
+        </a>
+      </li>
+      <li class="group rel">
+        <div
+          class="abs top:0 left:0 full bg:linear-gradient(to|top,gray-100,white) bx:1|solid|gray-400 opacity:0 ~opacity|.3s .group:hover_{opacity:1}"
+        ></div>
+        <span
+          class="abs bottom:0 left:0 transform:right scaleX(0) w:full h:3 bg:primary ~transform|.3s .group:hover_{transform:left;scaleX(1)}"
+        ></span>
+        <a href="../quote/quote.html" class="rel flex ai:center h:90 px:20">
+          Get A Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <button
+    id="siteHeaderBurger"
+    type="button"
+    class="rel block w:60 h:60 hidden@lg"
+  >
+    <span
+      class="abs top:22 left:19 w:22 h:2 bg:primary ~top|.3s,transform|.3s .is-active_{top:29;rotate(45)}"
+    ></span>
+    <span
+      class="abs top:29 left:19 w:22 h:2 bg:primary ~opacity|.3s .is-active_{opacity:0}"
+    ></span>
+    <span
+      class="abs top:36 left:19 w:22 h:2 bg:primary ~top|.3s,transform|.3s .is-active_{top:29;rotate(-45)}"
+    ></span>
+  </button>
+</header>
+
+<nav
+  id="siteNav"
+  class="fixed top:60 left:0 z:999 translateX(-100%) w:full h:calc(100%-60px) bg:gray-200 ~transform|.5s translateX(0).is-open hide@lg"
+>
+  <ul>
+    <li class="bb:1|solid|gray-400">
+      <a href="../about/about.html" class="block p:20|30">About Us</a>
+    </li>
+    <li class="bb:1|solid|gray-400">
+      <a href="../capability/capability.html" class="block p:20|30"
+        >Capability</a
+      >
+    </li>
+    <li class="bb:1|solid|gray-400">
+      <a href="../portfolio/portfolio.html" class="block p:20|30">Portfolio</a>
+    </li>
+    <li class="bb:1|solid|gray-400">
+      <a href="../news/news-list.html" class="block p:20|30">News</a>
+    </li>
+    <li class="bb:1|solid|gray-400">
+      <a href="../quote/quote.html" class="block p:20|30">Get A Quote</a>
+    </li>
+  </ul>
+</nav>
+
+    <main class="pt:60 pt:90@lg">
+      <section
+        class="rel flex ai:center h:280 bg:gray-200 bg:url('../../img/layout/quote/quote-banner.jpg')|center/cover h:380@md h:480@lg"
+      >
+        <div class="w:full max-w:calc(1152px+10vw) px:5vw mx:auto">
+          <h1 class="f:semibold f:32 {ml:60;f:40}@md f:48@lg">Get A Quote</h1>
+        </div>
+      </section>
+
+      <section class="rel pt:100 pb:120">
+        <div
+          class="abs bottom:0 left:0 z:-1 w:full h:100 bg:linear-gradient(to|top,gray-200,transparent)"
+        ></div>
+        <div class="max-w:calc(960px+10vw) px:5vw mx:auto">
+          <div class="pb:40 t:center">
+            <h2 class="f:semibold f:28 f:primary f:32@md">
+              One-Stop Shop for an Unparalleled Customer Experience
+            </h2>
+            <p class="mt:20">
+              With more than 19 years of experience in the Bay Area, Second
+              Source Medical now provides a one-stop shop support from rapid
+              design and prototyping to scale-up production, flexible to all
+              your needs.
+              <br /><br />
+              Start your project with our one-stop shop service now!
+            </p>
+          </div>
+          <div class="pt:40 bt:1|solid|black/.2">
+            <p class="t:center">
+              Please fill out the following form to tell us about your project
+              requirements. We will get back to you soon.
+            </p>
+            <p class="mt:30 t:center">
+              "<span class="f:primary">*</span>" indicates required fields
+            </p>
+            <form class="mt:20">
+              <div class="grid-cols:2 gap:15|30">
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="block w:full h:50 px:20 bg:white b:1|solid|gray-500 ~border-color|.3s b:primary:focus"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+<footer class="py:60 bg:white">
+  <div class="px:5vw {flex;jc:space-between}@md">
+    <ul class="mt:10>li~li max-w:400@md">
+      <li>
+        <div class="flex ai:center gap-x:10">
+          <div class="w:40 h:40 bg:black"></div>
+          <p class="flex:1">
+            <a href="tel:(408) 432-6388">(408) 432-6388</a>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="flex ai:center gap-x:10">
+          <div class="w:40 h:40 bg:black"></div>
+          <p class="flex:1">
+            <a href="mailto:info@secondsourcemed.com"
+              >info@secondsourcemed.com</a
+            >
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="flex ai:center gap-x:10">
+          <div class="w:40 h:40 bg:black"></div>
+          <p class="flex:1">
+            2200 Zanker Road, Suite F | San Jose, CA 95131 | USA
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="mt:40 mt:0@md">
+      <img
+        src="../../img/logo/secondsource-medical-logo-2.svg"
+        class="ml:auto@md"
+        alt="Secondsourcemed"
+        width="215"
+        height="55"
+      />
+      <p class="mt:20 f:gray-600 lh:2.5 t:right@md">
+        Copyright 2023 Second Source Medical LLC. <br />
+        All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="../../js/vendor.js"></script>
+<script src="../../js/app.js"></script>
+
+  </body>
+</html>
