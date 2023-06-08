@@ -34,7 +34,7 @@
   <body>
 <header
   id="siteHeader"
-  class="fixed top:0 left:0 z:999 w:full h:60 flex jc:space-between ai:center pl:5vw bg:white {h:90;pr:5vw}@lg"
+  class="fixed top:0 left:0 z:999 w:full h:60 flex jc:space-between ai:center pl:5vw ~box-shadow|.3s bg:white shadow:0|1|2|black/.1.is-scroll {h:90;pr:5vw}@lg"
 >
   <a href="../home/index.html">
     <img
@@ -216,7 +216,7 @@
               And Continue To Build Long Term Relationships.
             </p>
           </div>
-          <div class="grid-cols:3 gap:36 mt:60">
+          <div class="grid-cols:1 gap:36 mt:60 grid-cols:3@sm">
             <div
               class="rel p:0|20|36 {content:'';abs;top:56;bottom:0;left:0;right:0;z:-1;bg:white;r:5;shadow:0|1|2|black/.2;}::before"
             >
@@ -247,6 +247,13 @@
                 Regulatory Submissions Support, High-Volume Commercialization
               </p>
             </div>
+          </div>
+          <div class="mt:40 t:center mt:60@md">
+            <a
+              href="./news-list.html"
+              class="inline-flex center-content min-w:236 h:50 px:20 f:semibold f:primary t:center b:1|solid|primary ~color|.3s,background-color|.3s {f:white;bg:primary}:hover"
+              >View Certification</a
+            >
           </div>
         </div>
         <div class="max-w:calc(1296px+10vw) px:5vw mx:auto mt:120">
