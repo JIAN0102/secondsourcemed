@@ -161,7 +161,7 @@
         </div>
       </section>
 
-      <section class="rel pt:100 pb:120">
+      <section class="rel py:60 {pt:100;pb:120}@md">
         <div
           class="abs bottom:0 left:0 z:-1 w:full h:100 bg:linear-gradient(to|top,gray-200,transparent)"
         ></div>
@@ -226,6 +226,103 @@
                   />
                 </div>
               </div>
+              <div class="mt:30">
+                <h3>Interests <span class="f:primary">*</span></h3>
+                <div class="flex flex:wrap gap:20|40 mt:20">
+                  <div>
+                    <label for="balloon" class="flex ai:center gap-x:10">
+                      <input
+                        id="balloon"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800">Balloon</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label for="catheter" class="flex ai:center gap-x:10">
+                      <input
+                        id="catheter"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800">Catheter</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label
+                      for="extrusionTubing"
+                      class="flex ai:center gap-x:10"
+                    >
+                      <input
+                        id="extrusionTubing"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800">Extrusion Tubing</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label for="assembly" class="flex ai:center gap-x:10">
+                      <input
+                        id="assembly"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800">Assembly</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label
+                      for="pilotAndCommercialProduction"
+                      class="flex ai:center gap-x:10"
+                    >
+                      <input
+                        id="pilotAndCommercialProduction"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800"
+                        >Pilot and Commercial Production</span
+                      >
+                    </label>
+                  </div>
+                  <div>
+                    <label for="others" class="flex ai:center gap-x:10">
+                      <input
+                        id="others"
+                        type="checkbox"
+                        class="hidden bg:primary:checked+span"
+                      />
+                      <span
+                        class="w:20 h:20 bg:white b:1|solid|gray-500"
+                      ></span>
+                      <span class="f:gray-800">Others</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="mt:30">
+                <textarea
+                  class="block w:full h:140 p:14|20 bg:white b:1|solid|gray-500 ~border-color|.3s resize:none f:gray-900::placeholder b:primary:focus"
+                  placeholder="Project Requirements"
+                ></textarea>
+              </div>
             </form>
           </div>
         </div>
@@ -236,7 +333,12 @@
     <ul class="mt:10>li~li max-w:400@md">
       <li>
         <div class="flex ai:center gap-x:10">
-          <div class="w:40 h:40 bg:black"></div>
+          <img
+            src="../../img/icon/icon-phone.svg"
+            alt="Icon Phone"
+            width="40"
+            height="40"
+          />
           <p class="flex:1">
             <a href="tel:(408) 432-6388">(408) 432-6388</a>
           </p>
@@ -244,7 +346,12 @@
       </li>
       <li>
         <div class="flex ai:center gap-x:10">
-          <div class="w:40 h:40 bg:black"></div>
+          <img
+            src="../../img/icon/icon-mail.svg"
+            alt="Icon Mail"
+            width="40"
+            height="40"
+          />
           <p class="flex:1">
             <a href="mailto:info@secondsourcemed.com"
               >info@secondsourcemed.com</a
@@ -254,7 +361,12 @@
       </li>
       <li>
         <div class="flex ai:center gap-x:10">
-          <div class="w:40 h:40 bg:black"></div>
+          <img
+            src="../../img/icon/icon-location.svg"
+            alt="Icon Location"
+            width="40"
+            height="40"
+          />
           <p class="flex:1">
             2200 Zanker Road, Suite F | San Jose, CA 95131 | USA
           </p>
