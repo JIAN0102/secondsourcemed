@@ -22,6 +22,23 @@
     });
   };
 
+  const initIntlTelInput = () => {
+    const input = document.querySelector("#phone");
+    if (input) {
+      window.intlTelInput(input, {
+        initialCountry: "auto",
+        nationalMode: false,
+        geoIpLookup: (callback) => {
+          fetch("https://ipapi.co/json")
+            .then((res) => res.json())
+            .then((data) => callback(data.country_code))
+            .catch(() => callback("us"));
+        },
+        utilsScript: "../../js/utils.js",
+      });
+    }
+  };
+
   const toggleMenu = () => {
     $("#siteHeaderBurger").on("click", function () {
       $(this).toggleClass("is-active");
@@ -69,6 +86,7 @@
   $(() => {
     initSwiper();
     initAOS();
+    initIntlTelInput();
     toggleMenu();
     scrollWindow();
     goAnchor();

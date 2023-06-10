@@ -22,6 +22,26 @@
     });
   };
 
+  var initIntlTelInput = function initIntlTelInput() {
+    var input = document.querySelector("#phone");
+    if (input) {
+      window.intlTelInput(input, {
+        initialCountry: "auto",
+        nationalMode: false,
+        geoIpLookup: function geoIpLookup(callback) {
+          fetch("https://ipapi.co/json").then(function (res) {
+            return res.json();
+          }).then(function (data) {
+            return callback(data.country_code);
+          }).catch(function () {
+            return callback("us");
+          });
+        },
+        utilsScript: "../../js/utils.js"
+      });
+    }
+  };
+
   var toggleMenu = function toggleMenu() {
     $("#siteHeaderBurger").on("click", function () {
       $(this).toggleClass("is-active");
@@ -63,6 +83,7 @@
   $(function () {
     initSwiper();
     initAOS();
+    initIntlTelInput();
     toggleMenu();
     scrollWindow();
     goAnchor();
