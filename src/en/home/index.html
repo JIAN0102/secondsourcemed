@@ -14,13 +14,94 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="h:calc(100vh-90px) bg:black"></div>
+              <div
+                class="rel h:calc(100vh-60px) bg:black h:calc(100vh-90px)@lg"
+              >
+                <div
+                  class="abs top:0 left:0 full overflow:hidden {content:'';abs;top:0;left:0;full;bg:url('../../img/layout/home/hero-banner-decoration.svg')|bottom/cover}::after"
+                >
+                  <picture>
+                    <source
+                      media="(min-width: 1024px)"
+                      srcset="../../img/layout/home/hero-banner-desktop-1.jpg"
+                    />
+                    <img
+                      alt="Creating cost effective solutions"
+                      class="abs top:0 left:0 scale(1.15) full obj:cover ~transform|10s|linear :is(.swiper-slide-active,.swiper-slide-duplicate-active)_{scale(1)}"
+                      src="../../img/layout/home/hero-banner-mobile-1.jpg"
+                    />
+                  </picture>
+                </div>
+                <div class="abs bottom:80 left:0 bottom:1/5@sm">
+                  <div class="max-w:calc(1152px+10vw) px:5vw mx:auto">
+                    <div class="max-w:750">
+                      <h2 class="f:semibold f:32 f:white f:40@md f:48@lg">
+                        Creating cost effective solutions
+                      </h2>
+                      <div class="pt:24 mt:20 bt:1|solid|white|">
+                        <p class="f:white">
+                          Our goal is to enable clients the most rapid
+                          time-to-market possible by providing engineering and
+                          manufacturing support to expand clients’ capabilities.
+                        </p>
+                        <a
+                          href="./news-list.html"
+                          class="inline-flex center-content min-w:180 h:50 px:20 mt:40 f:semibold f:white t:center b:1|solid|white ~color|.3s,background-color|.3s {f:primary;bg:white}:hover mt:60@sm"
+                          >Back</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="rel h:calc(100vh-60px) bg:black h:calc(100vh-90px)@lg"
+              >
+                <div
+                  class="abs top:0 left:0 full overflow:hidden {content:'';abs;top:0;left:0;full;bg:url('../../img/layout/home/hero-banner-decoration.svg')|bottom/cover}::after"
+                >
+                  <picture>
+                    <source
+                      media="(min-width: 1024px)"
+                      srcset="../../img/layout/home/hero-banner-desktop-1.jpg"
+                    />
+                    <img
+                      alt="Creating cost effective solutions"
+                      class="abs top:0 left:0 scale(1.15) full obj:cover ~transform|10s|linear :is(.swiper-slide-active,.swiper-slide-)_{scale(1)}"
+                      src="../../img/layout/home/hero-banner-mobile-1.jpg"
+                    />
+                  </picture>
+                </div>
+                <div class="abs bottom:80 left:0 bottom:1/5@sm">
+                  <div class="max-w:calc(1152px+10vw) px:5vw mx:auto">
+                    <div class="max-w:750">
+                      <h2 class="f:semibold f:32 f:white f:40@md f:48@lg">
+                        Creating cost effective solutions
+                      </h2>
+                      <div class="pt:24 mt:20 bt:1|solid|white|">
+                        <p class="f:white">
+                          Our goal is to enable clients the most rapid
+                          time-to-market possible by providing engineering and
+                          manufacturing support to expand clients’ capabilities.
+                        </p>
+                        <a
+                          href="./news-list.html"
+                          class="inline-flex center-content min-w:180 h:50 px:20 mt:40 f:semibold f:white t:center b:1|solid|white ~color|.3s,background-color|.3s {f:primary;bg:white}:hover mt:60@sm"
+                          >Back</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="py:60 py:100@md py:130@lg">
+      <section class="py:40 py:60@sm py:100@md py:130@lg">
         <div class="max-w:calc(1152px+10vw) px:5vw mx:auto">
           <div class="{flex;ai:center}@md">
             <div class="flex:1@md">
@@ -60,7 +141,7 @@
         </div>
       </section>
 
-      <section class="rel py:60 py:100@md">
+      <section class="rel py:40 py:60@sm py:100@md">
         <div
           class="abs top:0 left:0 z:-1 w:full h:540 bg:linear-gradient(to|bottom,gray-200,transparent)"
         ></div>
@@ -73,11 +154,19 @@
               And Continue To Build Long Term Relationships.
             </p>
           </div>
-          <div class="grid-cols:1 gap:36 mt:60 grid-cols:3@sm">
+          <div class="grid-cols:1 gap:36 mt:40 grid-cols:3@sm mt:60@md">
             <div
               class="rel p:0|20|36 {content:'';abs;top:56;bottom:0;left:0;right:0;z:-1;bg:white;r:5;shadow:0|1|2|black/.2;}::before"
             >
-              <div class="aspect:320/195 bg:black r:5"></div>
+              <div class="rel aspect:320/195 overflow:hidden bg:black r:5">
+                <img
+                  src="../../img/layout/home/service-1.jpg"
+                  class="abs top:0 left:0 full obj:cover"
+                  alt="DESIGN"
+                  width="320"
+                  height="195"
+                />
+              </div>
               <h3 class="mt:20 f:semibold f:20 t:center f:22@md">DESIGN</h3>
               <p class="mt:20">
                 Complex And High-Performance Components For Microcatheters,
@@ -87,7 +176,15 @@
             <div
               class="rel p:0|20|36 {content:'';abs;top:56;bottom:0;left:0;right:0;z:-1;bg:white;r:5;shadow:0|1|2|black/.2;}::before"
             >
-              <div class="aspect:320/195 bg:black r:5"></div>
+              <div class="rel aspect:320/195 overflow:hidden bg:black r:5">
+                <img
+                  src="../../img/layout/home/service-2.jpg"
+                  class="abs top:0 left:0 full obj:cover"
+                  alt="MANUFACTURE"
+                  width="320"
+                  height="195"
+                />
+              </div>
               <h3 class="mt:20 f:semibold f:20 t:center f:22@md">
                 MANUFACTURE
               </h3>
@@ -99,7 +196,15 @@
             <div
               class="rel p:0|20|36 {content:'';abs;top:56;bottom:0;left:0;right:0;z:-1;bg:white;r:5;shadow:0|1|2|black/.2;}::before"
             >
-              <div class="aspect:320/195 bg:black r:5"></div>
+              <div class="rel aspect:320/195 overflow:hidden bg:black r:5">
+                <img
+                  src="../../img/layout/home/service-3.jpg"
+                  class="abs top:0 left:0 full obj:cover"
+                  alt="MANAGE"
+                  width="320"
+                  height="195"
+                />
+              </div>
               <h3 class="mt:20 f:semibold f:20 t:center f:22@md">MANAGE</h3>
               <p class="mt:20">
                 Project And Quality Management From Napkin To First-In-Man,
@@ -140,7 +245,7 @@
       </section>
 
       <section
-        class="py:60 bg:gray-200 bg:url('../../img/layout/home/news-bg.jpg')|center/cover py:80@md"
+        class="py:40 bg:gray-200 bg:url('../../img/layout/home/news-bg.jpg')|center/cover py:60@sm py:80@md"
       >
         <div class="max-w:calc(1040px+10vw) px:5vw mx:auto">
           <h2 class="f:semibold f:28 t:center f:32@md">

@@ -5,9 +5,9 @@
   );
 
   const initSwiper = () => {
-    new Swiper(".hero .swiper", {
+    new Swiper("#hero .swiper", {
       speed: 1000,
-      loop: $(".hero .swiper-slide").length > 1,
+      loop: $("#hero .swiper-slide").length > 1,
       autoplay: {
         delay: 5000,
         disableOnInteraction: false,

@@ -5,9 +5,9 @@
   var isTouchDevice = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|playbook|silk|BlackBerry|BB10|Windows Phone|Tizen|Bada|webOS|IEMobile|Opera Mini)/);
 
   var initSwiper = function initSwiper() {
-    new Swiper(".hero .swiper", {
+    new Swiper("#hero .swiper", {
       speed: 1000,
-      loop: $(".hero .swiper-slide").length > 1,
+      loop: $("#hero .swiper-slide").length > 1,
       autoplay: {
         delay: 5000,
         disableOnInteraction: false

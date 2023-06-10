@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.051" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cc8ea" stop-opacity="0.745"/>
+      <stop offset="1" stop-color="#0391b4" stop-opacity="0.2"/>
+    </linearGradient>
+    <clipPath id="clip-hero-banner-decoration">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="hero-banner-decoration" clip-path="url(#clip-hero-banner-decoration)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M1258,0,2516,756H0Z" transform="translate(-707 324)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
