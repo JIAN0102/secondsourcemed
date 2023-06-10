@@ -161,10 +161,9 @@
         </div>
       </section>
 
-      <section class="rel py:40 py:60@sm {pt:100;pb:120}@md">
-        <div
-          class="abs bottom:0 left:0 z:-1 w:full h:100 bg:linear-gradient(to|top,gray-200,transparent)"
-        ></div>
+      <section
+        class="rel py:40 py:60@sm {pt:100;pb:120}@md {content:'';abs;bottom:0;left:0;z:-1;w:full;h:100;bg:linear-gradient(to|top,gray-200,transparent)}::before"
+      >
         <div class="max-w:calc(1152px+10vw) px:5vw mx:auto">
           <p class="lh:1.75">
             Second Source Medical is an agile and highly flexible contract
@@ -205,7 +204,7 @@
               </p>
               <a
                 href="javascript:;"
-                class="inline-flex ai:center gap-x:11 mt:20 f:secondary mt:30@sm"
+                class="inline-flex ai:center gap-x:12 mt:20 f:secondary ~gap|.2s gap-x:16:hover mt:30@sm"
               >
                 <span>Read More</span>
                 <svg
@@ -247,7 +246,7 @@
               </p>
               <a
                 href="javascript:;"
-                class="inline-flex ai:center gap-x:11 mt:20 mt:30@sm"
+                class="inline-flex ai:center gap-x:12 mt:20 ~gap|.2s gap-x:16:hover mt:30@sm"
               >
                 <span>Read More</span>
                 <svg
@@ -289,7 +288,7 @@
               </p>
               <a
                 href="javascript:;"
-                class="inline-flex ai:center gap-x:11 mt:20 f:secondary mt:30@sm"
+                class="inline-flex ai:center gap-x:12 mt:20 f:secondary ~gap|.2s gap-x:16:hover mt:30@sm"
               >
                 <span>Read More</span>
                 <svg
@@ -336,7 +335,7 @@
               </p>
               <a
                 href="javascript:;"
-                class="inline-flex ai:center gap-x:11 mt:30 f:secondary"
+                class="inline-flex ai:center gap-x:12 mt:20 f:secondary ~gap|.2s gap-x:16:hover mt:30@sm"
               >
                 <span>Read More</span>
                 <svg
@@ -421,7 +420,9 @@
             height="40"
           />
           <p class="flex:1">
-            <a href="tel:(408) 432-6388">(408) 432-6388</a>
+            <a href="tel:(408) 432-6388" class="t:underline:hover"
+              >(408) 432-6388</a
+            >
           </p>
         </div>
       </li>
@@ -434,7 +435,7 @@
             height="40"
           />
           <p class="flex:1">
-            <a href="mailto:info@secondsourcemed.com"
+            <a href="mailto:info@secondsourcemed.com" class="t:underline:hover"
               >info@secondsourcemed.com</a
             >
           </p>

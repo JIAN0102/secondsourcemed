@@ -30,6 +30,10 @@
   window.initMasterCSS();
 </script>
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css"
+    />
   </head>
   <body>
 <header
@@ -161,10 +165,10 @@
         </div>
       </section>
 
-      <section class="rel py:40 py:60@sm {pt:100;pb:120}@md">
-        <div
-          class="abs bottom:0 left:0 z:-1 w:full h:100 bg:linear-gradient(to|top,gray-200,transparent)"
-        ></div>
+      <section
+        id="gallery"
+        class="rel py:40 py:60@sm {pt:100;pb:120}@md {content:'';abs;bottom:0;left:0;z:-1;w:full;h:100;bg:linear-gradient(to|top,gray-200,transparent)}::before"
+      >
         <div class="max-w:calc(1000px+10vw) px:5vw mx:auto">
           <p class="lh:1.75">
             SSM has played a pivotal role in the success of many client projects
@@ -180,23 +184,135 @@
               <div class="w:full w:1/2@md">
                 <div class="flex flex:wrap">
                   <div class="w:2/3">
-                    <div class="h:280 bg:black"></div>
+                    <div class="rel h:280 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-1.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="670"
+                        data-pswp-height="560"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-1.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="670"
+                          height="560"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:1/3">
-                    <div class="h:140 bg:green"></div>
-                    <div class="h:140 bg:purple"></div>
+                    <div class="rel h:140 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-2.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="330"
+                        data-pswp-height="280"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-2.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="280"
+                        />
+                      </a>
+                    </div>
+                    <div class="rel h:140 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-3.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="330"
+                        data-pswp-height="280"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-3.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="280"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:1/3">
-                    <div class="h:280 bg:green"></div>
+                    <div class="rel h:280 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-4.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="330"
+                        data-pswp-height="560"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-4.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="560"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:2/3">
-                    <div class="h:140 bg:red"></div>
+                    <div class="rel h:140 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-5.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="670"
+                        data-pswp-height="280"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-5.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="280"
+                        />
+                      </a>
+                    </div>
                     <div class="flex flex:wrap">
                       <div class="w:1/2">
-                        <div class="h:140 bg:yellow"></div>
+                        <div class="rel h:140 b:1|solid|white">
+                          <a
+                            href="../../img/layout/portfolio/gallery-6.jpg"
+                            class="abs top:0 left:0 full"
+                            data-pswp-width="330"
+                            data-pswp-height="280"
+                            target="_blank"
+                          >
+                            <img
+                              src="../../img/layout/portfolio/gallery-6.jpg"
+                              class="full obj:cover"
+                              alt=""
+                              width="330"
+                              height="280"
+                            />
+                          </a>
+                        </div>
                       </div>
                       <div class="w:1/2">
-                        <div class="h:140 bg:purple"></div>
+                        <div class="rel h:140 b:1|solid|white">
+                          <a
+                            href="../../img/layout/portfolio/gallery-7.jpg"
+                            class="abs top:0 left:0 full"
+                            data-pswp-width="330"
+                            data-pswp-height="280"
+                            target="_blank"
+                          >
+                            <img
+                              src="../../img/layout/portfolio/gallery-7.jpg"
+                              class="full obj:cover"
+                              alt=""
+                              width="330"
+                              height="280"
+                            />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -205,57 +321,570 @@
               <div class="w:full w:1/2@md">
                 <div class="flex flex:wrap">
                   <div class="w:1/3">
-                    <div class="h:280 bg:black"></div>
-                    <div class="h:280 bg:yellow"></div>
+                    <div class="rel h:280 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-8.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="330"
+                        data-pswp-height="560"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-8.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="560"
+                        />
+                      </a>
+                    </div>
+                    <div class="rel h:280 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-9.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="330"
+                        data-pswp-height="560"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-9.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="330"
+                          height="560"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:2/3">
-                    <div class="h:140 bg:green"></div>
-                    <div class="h:280 bg:purple"></div>
-                    <div class="h:140 bg:black"></div>
+                    <div class="rel h:140 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-10.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="670"
+                        data-pswp-height="280"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-10.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="670"
+                          height="280"
+                        />
+                      </a>
+                    </div>
+                    <div class="rel h:280 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-11.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="670"
+                        data-pswp-height="560"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-11.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="670"
+                          height="560"
+                        />
+                      </a>
+                    </div>
+                    <div class="flex">
+                      <div class="w:1/2">
+                        <div class="rel h:140 b:1|solid|white">
+                          <a
+                            href="../../img/layout/portfolio/gallery-12.jpg"
+                            class="abs top:0 left:0 full"
+                            data-pswp-width="330"
+                            data-pswp-height="280"
+                            target="_blank"
+                          >
+                            <img
+                              src="../../img/layout/portfolio/gallery-12.jpg"
+                              class="full obj:cover"
+                              alt=""
+                              width="330"
+                              height="280"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="w:1/2">
+                        <div class="rel h:140 b:1|solid|white">
+                          <a
+                            href="../../img/layout/portfolio/gallery-13.jpg"
+                            class="abs top:0 left:0 full"
+                            data-pswp-width="330"
+                            data-pswp-height="280"
+                            target="_blank"
+                          >
+                            <img
+                              src="../../img/layout/portfolio/gallery-13.jpg"
+                              class="full obj:cover"
+                              alt=""
+                              width="330"
+                              height="280"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="flex flex:wrap">
-              <div class="w:42%">
-                <div class="h:290 bg:black"></div>
+              <div class="w:full w:42%@md">
+                <div class="rel h:290 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-14.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="830"
+                    data-pswp-height="590"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-14.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="830"
+                      height="590"
+                    />
+                  </a>
+                </div>
               </div>
-              <div class="w:35%">
-                <div class="h:145 bg:red"></div>
+              <div class="w:1/2 w:35%@md">
+                <div class="rel h:140 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-15.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="710"
+                    data-pswp-height="290"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-15.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="710"
+                      height="290"
+                    />
+                  </a>
+                </div>
                 <div class="flex flex:wrap">
                   <div class="w:1/2">
-                    <div class="h:145 bg:yellow"></div>
+                    <div class="rel h:150 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-16.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="355"
+                        data-pswp-height="300"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-16.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="355"
+                          height="300"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:1/2">
-                    <div class="h:145 bg:beryl"></div>
+                    <div class="rel h:150 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-17.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="355"
+                        data-pswp-height="300"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-17.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="355"
+                          height="300"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="w:23%">
-                <div class="h:290 bg:purple"></div>
+              <div class="w:1/2 w:23%@md">
+                <div class="rel h:290 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-18.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="460"
+                    data-pswp-height="590"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-18.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="460"
+                      height="590"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div class="flex flex:wrap">
-              <div class="w:33.5%">
-                <div class="h:140 bg:red"></div>
-                <div class="h:280 bg:green"></div>
-                <div class="h:210 bg:yellow"></div>
-                <div class="h:260 bg:purple"></div>
+              <div class="w:full w:33.5%@md">
+                <div class="rel h:140 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-19.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="670"
+                    data-pswp-height="280"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-19.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="670"
+                      height="280"
+                    />
+                  </a>
+                </div>
+                <div class="rel h:280 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-20.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="670"
+                    data-pswp-height="560"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-20.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="670"
+                      height="560"
+                    />
+                  </a>
+                </div>
+                <div class="rel h:210 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-21.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="670"
+                    data-pswp-height="420"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-21.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="670"
+                      height="420"
+                    />
+                  </a>
+                </div>
+                <div class="rel h:260 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-22.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="670"
+                    data-pswp-height="520"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-22.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="670"
+                      height="520"
+                    />
+                  </a>
+                </div>
               </div>
-              <div class="w:66.5%">
+              <div class="w:full w:66.5%@md">
                 <div class="flex flex:wrap">
                   <div class="w:42%">
-                    <div class="h:300 bg:black"></div>
+                    <div class="rel h:300 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-23.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="564"
+                        data-pswp-height="600"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-23.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="564"
+                          height="600"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:58%">
-                    <div class="h:300 bg:green"></div>
+                    <div class="rel h:300 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-24.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="766"
+                        data-pswp-height="600"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-24.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="766"
+                          height="600"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:53%">
-                    <div class="h:300 bg:red"></div>
+                    <div class="rel h:250 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-25.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="706"
+                        data-pswp-height="480"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-25.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="706"
+                          height="480"
+                        />
+                      </a>
+                    </div>
                   </div>
                   <div class="w:47%">
-                    <div class="h:300 bg:yellow"></div>
+                    <div class="rel h:250 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-26.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="624"
+                        data-pswp-height="480"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-26.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="624"
+                          height="480"
+                        />
+                      </a>
+                    </div>
                   </div>
+                  <div class="w:full flex">
+                    <div class="w:2/5">
+                      <div class="rel h:340 b:1|solid|white">
+                        <a
+                          href="../../img/layout/portfolio/gallery-27.jpg"
+                          class="abs top:0 left:0 full"
+                          data-pswp-width="516"
+                          data-pswp-height="690"
+                          target="_blank"
+                        >
+                          <img
+                            src="../../img/layout/portfolio/gallery-27.jpg"
+                            class="full obj:cover"
+                            alt=""
+                            width="516"
+                            height="690"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="w:3/5">
+                      <div class="flex flex:wrap">
+                        <div class="w:1/2">
+                          <div class="rel h:170 b:1|solid|white">
+                            <a
+                              href="../../img/layout/portfolio/gallery-28.jpg"
+                              class="abs top:0 left:0 full"
+                              data-pswp-width="410"
+                              data-pswp-height="340"
+                              target="_blank"
+                            >
+                              <img
+                                src="../../img/layout/portfolio/gallery-28.jpg"
+                                class="full obj:cover"
+                                alt=""
+                                width="410"
+                                height="340"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="w:1/2">
+                          <div class="rel h:170 b:1|solid|white">
+                            <a
+                              href="../../img/layout/portfolio/gallery-29.jpg"
+                              class="abs top:0 left:0 full"
+                              data-pswp-width="410"
+                              data-pswp-height="340"
+                              target="_blank"
+                            >
+                              <img
+                                src="../../img/layout/portfolio/gallery-29.jpg"
+                                class="full obj:cover"
+                                alt=""
+                                width="410"
+                                height="340"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="w:1/2">
+                          <div class="rel h:170 b:1|solid|white">
+                            <a
+                              href="../../img/layout/portfolio/gallery-30.jpg"
+                              class="abs top:0 left:0 full"
+                              data-pswp-width="410"
+                              data-pswp-height="340"
+                              target="_blank"
+                            >
+                              <img
+                                src="../../img/layout/portfolio/gallery-30.jpg"
+                                class="full obj:cover"
+                                alt=""
+                                width="410"
+                                height="340"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="w:1/2">
+                          <div class="rel h:170 b:1|solid|white">
+                            <a
+                              href="../../img/layout/portfolio/gallery-31.jpg"
+                              class="abs top:0 left:0 full"
+                              data-pswp-width="410"
+                              data-pswp-height="340"
+                              target="_blank"
+                            >
+                              <img
+                                src="../../img/layout/portfolio/gallery-31.jpg"
+                                class="full obj:cover"
+                                alt=""
+                                width="410"
+                                height="340"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex:wrap">
+              <div class="w:full w:4/5@md">
+                <div class="flex flex:wrap">
+                  <div class="w:3/4">
+                    <div class="rel h:135 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-32.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="1190"
+                        data-pswp-height="270"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-32.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="1190"
+                          height="270"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w:1/4">
+                    <div class="rel h:135 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-33.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="410"
+                        data-pswp-height="270"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-33.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="410"
+                          height="270"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w:37%">
+                    <div class="rel h:195 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-34.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="595"
+                        data-pswp-height="390"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-34.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="595"
+                          height="390"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w:63%">
+                    <div class="rel h:195 b:1|solid|white">
+                      <a
+                        href="../../img/layout/portfolio/gallery-35.jpg"
+                        class="abs top:0 left:0 full"
+                        data-pswp-width="1000"
+                        data-pswp-height="390"
+                        target="_blank"
+                      >
+                        <img
+                          src="../../img/layout/portfolio/gallery-35.jpg"
+                          class="full obj:cover"
+                          alt=""
+                          width="1000"
+                          height="390"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w:full w:1/5@md">
+                <div class="rel h:330 b:1|solid|white">
+                  <a
+                    href="../../img/layout/portfolio/gallery-36.jpg"
+                    class="abs top:0 left:0 full"
+                    data-pswp-width="410"
+                    data-pswp-height="660"
+                    target="_blank"
+                  >
+                    <img
+                      src="../../img/layout/portfolio/gallery-36.jpg"
+                      class="full obj:cover"
+                      alt=""
+                      width="410"
+                      height="660"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -275,7 +904,9 @@
             height="40"
           />
           <p class="flex:1">
-            <a href="tel:(408) 432-6388">(408) 432-6388</a>
+            <a href="tel:(408) 432-6388" class="t:underline:hover"
+              >(408) 432-6388</a
+            >
           </p>
         </div>
       </li>
@@ -288,7 +919,7 @@
             height="40"
           />
           <p class="flex:1">
-            <a href="mailto:info@secondsourcemed.com"
+            <a href="mailto:info@secondsourcemed.com" class="t:underline:hover"
               >info@secondsourcemed.com</a
             >
           </p>
@@ -327,5 +958,16 @@
 <script src="../../js/vendor.js"></script>
 <script src="../../js/app.js"></script>
 
+    <script type="module">
+      import PhotoSwipeLightbox from "https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js";
+
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: "#gallery",
+        children: "a",
+        pswpModule: () => import("https://unpkg.com/photoswipe"),
+      });
+
+      lightbox.init();
+    </script>
   </body>
 </html>

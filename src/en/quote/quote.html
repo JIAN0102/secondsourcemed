@@ -18,10 +18,9 @@
         </div>
       </section>
 
-      <section class="rel py:40 py:60@sm {pt:100;pb:120}@md">
-        <div
-          class="abs bottom:0 left:0 z:-1 w:full h:100 bg:linear-gradient(to|top,gray-200,transparent)"
-        ></div>
+      <section
+        class="rel py:40 py:60@sm {pt:100;pb:120}@md {content:'';abs;bottom:0;left:0;z:-1;w:full;h:100;bg:linear-gradient(to|top,gray-200,transparent)}::before"
+      >
         <div class="max-w:calc(960px+10vw) px:5vw mx:auto">
           <div class="pb:40 t:center">
             <h2 class="f:semibold f:28 f:primary f:32@md">
@@ -185,6 +184,13 @@
                   class="block w:full h:140 p:14|20 bg:white b:1|solid|gray-500 ~border-color|.3s resize:none f:gray-900::placeholder b:primary:focus"
                   placeholder="Project Requirements"
                 ></textarea>
+              </div>
+              <div class="mt:40 t:center mt:60@sm">
+                <a
+                  href="./news-list.html"
+                  class="inline-flex center-content min-w:220 h:50 px:20 f:semibold f:primary t:center b:1|solid|primary ~color|.3s,background-color|.3s {f:white;bg:primary}:hover"
+                  >Submit My Inquiry</a
+                >
               </div>
             </form>
           </div>
