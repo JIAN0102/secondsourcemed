@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
-  <defs>
-    <clipPath id="clip-icon-phone">
-      <rect width="40" height="40"/>
-    </clipPath>
-  </defs>
-  <g id="icon-phone" clip-path="url(#clip-icon-phone)">
-    <g id="Group_11181" data-name="Group 11181" transform="translate(-865 -3224)">
-      <rect id="Rectangle_88" data-name="Rectangle 88" width="40" height="40" transform="translate(865 3224)" fill="none"/>
-      <path id="Path_44" data-name="Path 44" d="M31.7,19.7A19.2,19.2,0,0,0,12.5.5" transform="translate(869.3 3227.501)" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_45" data-name="Path 45" d="M27.526,19.439A15.026,15.026,0,0,0,12.5,4.413" transform="translate(869.3 3227.761)" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_46" data-name="Path 46" d="M23.352,19.178A10.852,10.852,0,0,0,12.5,8.326" transform="translate(869.3 3228.022)" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_47" data-name="Path 47" d="M13.275,24.47c1.014-.146,3.228-1.644,4.078-1.695s6.127,5.1,6.073,5.948a4.141,4.141,0,0,1-1.113,2.071c-.365.32-4.243,1.79-5.613,1.7S7.827,26.076,4.782,20.8l.009.015C1.744,15.54.013,5.877.621,4.646A16.714,16.714,0,0,1,4.9.637a4.125,4.125,0,0,1,2.35.071c.764.378,2.585,7.522,2.115,8.233s-2.873,1.878-3.507,2.685A16.906,16.906,0,0,0,8.39,19.167,28.152,28.152,0,0,0,13.275,24.47Z" transform="translate(868.5 3227.5)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><defs><clipPath id="a"><path d="M0 0h40v40H0z"/></clipPath></defs><g data-name="Group 11181" fill="none" clip-path="url(#a)"><path data-name="Rectangle 88" d="M0 0h40v40H0z"/><path data-name="Path 44" d="M36 23.201a19.2 19.2 0 0 0-19.2-19.2" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path data-name="Path 45" d="M31.826 23.2A15.026 15.026 0 0 0 16.8 8.174" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path data-name="Path 46" d="M27.652 23.2A10.852 10.852 0 0 0 16.8 12.348" stroke="#999" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path data-name="Path 47" d="M16.775 27.97c1.014-.146 3.228-1.644 4.078-1.695s6.127 5.1 6.073 5.948a4.141 4.141 0 0 1-1.113 2.071c-.365.32-4.243 1.79-5.613 1.7S11.327 29.576 8.282 24.3l.009.015C5.244 19.04 3.513 9.377 4.121 8.146A16.714 16.714 0 0 1 8.4 4.137a4.125 4.125 0 0 1 2.35.071c.764.378 2.585 7.522 2.115 8.233s-2.873 1.878-3.507 2.685a16.906 16.906 0 0 0 2.532 7.541 28.152 28.152 0 0 0 4.885 5.303Z" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/></g></svg>
